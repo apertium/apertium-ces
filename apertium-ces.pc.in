@@ -1,7 +1,9 @@
-prefix=/home/fran/local
+prefix=@prefix@
 exec_prefix=${prefix}
-libdir=${exec_prefix}/lib
+libdir=@libdir@
+dir=@libdir@/apertium/apertium-ces
+srcdir=@datarootdir@/apertium/apertium-ces
 
 Name: apertium-ces
 Description: Finite-state morphological transducer and constraint grammar for Czech 
-Version: 0.1.0
+Version: @VERSION@
