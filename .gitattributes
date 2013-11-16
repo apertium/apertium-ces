@@ -9,5 +9,6 @@
 /apertium-ces.ces.rlx -text
 /apertium-ces.pc.in -text
 /autogen.sh -text
+/ces.prob -text
 /configure.ac -text
 /modes.xml -text

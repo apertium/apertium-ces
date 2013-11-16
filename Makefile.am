@@ -9,6 +9,7 @@ BASENAME=apertium-$(LANG1)
 
 TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1).autogen.bin \
 	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
+        $(LANG1).prob \
         $(LANG1).rlx.bin
 
 ###############################################################################
@@ -39,6 +40,7 @@ $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
 ###############################################################################
 EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 	   $(BASENAME).$(LANG1).rlx  \
+           $(LANG1).prob            \
 	   modes.xml
 
 ###############################################################################
