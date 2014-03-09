@@ -22,7 +22,7 @@ LIST Masc = mi ma m ;
 LIST Fem = f ; 
 LIST Neut = nt ; 
 
-LIST Pers = pers ; 
+LIST Pers = pers "prpers" ; 
 LIST Rel = rel ;
 LIST Interr = itg ; 
 
