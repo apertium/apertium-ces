@@ -5,6 +5,7 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
+/apertium-ces.ces.acx -text
 /apertium-ces.ces.dix -text
 /apertium-ces.ces.rlx -text
 /apertium-ces.pc.in -text
