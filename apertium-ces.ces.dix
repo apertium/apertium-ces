@@ -5580,6 +5580,24 @@
     </pardef>
       
     <!-- Proper nouns -->      
+    <pardef n="Kub/a__np">
+      <e><p><l>a</l><r>a<s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>u</l><r>a<s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>y</l><r>a<s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>ě</l><r>a<s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ě</l><r>a<s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>ou</l><r>a<s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>o</l><r>a<s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>y</l><r>a<s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>y</l><r>a<s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l></l><r>a<s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>ám</l><r>a<s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>ách</l><r>a<s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l>ama</l><r>a<s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>ami</l><r>a<s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>y</l><r>a<s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+    </pardef>
+      
     <pardef n="Ann/a__np">
       <e><p><l>a</l><r>a<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>u</l><r>a<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -17283,7 +17301,10 @@
     <e lm="šít"><par n="v_neg"/><i>š</i><par n="ž/ít__vblex"/></e>
     <e lm="bít"><par n="v_neg"/><i>b</i><par n="ž/ít__vblex"/></e>
      
-    <!-- ******************************           group np       ****************************** --><e lm="Ada"><i>Ad</i><par n="Ann/a__np"/></e>
+    <!-- ******************************           group np       ****************************** -->
+
+    <e lm="Ada"><i>Ad</i><par n="Ann/a__np"/></e>
+    <e lm="Kuba"><i>Kub</i><par n="Kub/a__np"/></e>
     <e lm="Adelina"><i>Adelin</i><par n="Ann/a__np"/></e>
     <e lm="Adina"><i>Adin</i><par n="Ann/a__np"/></e>
     <e lm="Adriana"><i>Adrian</i><par n="Ann/a__np"/></e>
