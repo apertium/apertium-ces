@@ -22,6 +22,7 @@ LIST Masc = mi ma m ;
 LIST Fem = f ; 
 LIST Neut = nt ; 
 
+LIST Pers = pers ; 
 LIST Rel = rel ;
 LIST Interr = itg ; 
 
@@ -65,3 +66,9 @@ REMOVE Nom IF (-1C* Nom);
 
 REMOVE Rel IF (0C Rel OR Interr) (1* ("?") BARRIER CLB) ;
     ## Kde je Kuba ?
+
+# 'je' is often considered archaic and is ambiguous with pres.p3.sg of 'být'
+# add rules to select it in particular contexts
+REMOVE Pers IF (0 ("<je>"));
+    ## Kde je Kuba ?
+
