@@ -22,10 +22,15 @@ LIST Masc = mi ma m ;
 LIST Fem = f ; 
 LIST Neut = nt ; 
 
+LIST Rel = rel ;
+LIST Interr = itg ; 
+
 LIST NP-MOD = adj det ; 
 
 LIST ACC-PREP = "na" "v" ;
 LIST LOC-PREP = "na" "v" ; 
+
+LIST CLB = sent ;
 
 SET NGDAILV = Nom | Gen | Dat | Acc | Ins | Loc | Voc ; 
 SET NUMBER = Sg | Pl ; 
@@ -57,3 +62,6 @@ REMOVE Loc IF (NOT -1* LOC-PREP BARRIER NOT-LOC);
 
 REMOVE Nom IF (-1C* Nom); 
     ## Ústava EU učiní Evropu demokratičtější a průhlednější .
+
+REMOVE Rel IF (0C Rel OR Interr) (1* ("?") BARRIER CLB) ;
+    ## Kde je Kuba ?
