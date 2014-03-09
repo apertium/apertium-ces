@@ -9,6 +9,7 @@
 /apertium-ces.ces.dix -text
 /apertium-ces.ces.rlx -text
 /apertium-ces.pc.in -text
+/apertium-ces.post-ces.dix -text
 /autogen.sh -text
 /ces.prob -text
 /configure.ac -text
