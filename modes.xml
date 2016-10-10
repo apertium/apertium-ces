@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
 
-  <mode name="ces-morph">
+  <mode name="ces-morph" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="ces.automorf.bin"/>
@@ -9,7 +9,7 @@
     </pipeline>
   </mode>
 
-  <mode name="ces-gener">
+  <mode name="ces-gener" install="yes">
     <pipeline>
       <program name="lt-proc -g">
         <file name="ces.autogen.bin"/>
@@ -17,7 +17,7 @@
     </pipeline>
   </mode>
 
-  <mode name="ces-tagger">
+  <mode name="ces-tagger" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="ces.automorf.bin"/>
@@ -28,7 +28,7 @@
     </pipeline>
   </mode>
 
-  <mode name="ces-disam">
+  <mode name="ces-disam" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="ces.automorf.bin"/>
