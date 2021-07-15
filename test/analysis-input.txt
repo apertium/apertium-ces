@@ -1,0 +1,6 @@
+# from https://wiki.apertium.org/wiki/Polish_and_Czech/Pending_tests
+Více zlatý.
+Nejvíce normální člověk
+Novější auťáky
+dva dni dříve
+Oni májí auťák.
